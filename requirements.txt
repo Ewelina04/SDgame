@@ -1,6 +1,7 @@
 streamlit
+wxpython
 pandas
 numpy
 pygame
 psychopy
-wxpython
+
