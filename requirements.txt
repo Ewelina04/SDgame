@@ -1,11 +1,12 @@
 streamlit
 attrdict3
+requests
+wxPython==4.2.0
 pygame==2.0.0.dev14
 webkit
 opengl
 six
 wheel
-wxPython==4.2.0
 pandas
 numpy
 psychopy
