@@ -1,7 +1,8 @@
 streamlit
+webkit
+opengl
 wxpython
 pandas
 numpy
 pygame
 psychopy
-
