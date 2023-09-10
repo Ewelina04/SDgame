@@ -1,7 +1,7 @@
 pip==23.2.1
 streamlit
 requests
-pygame==2.0.0.dev14
+pygame
 webkit
 opengl
 six
