@@ -254,7 +254,7 @@ def blinks_detector(quit_program, blink_det, blinks_num, blink,):
     brt = BlinkRealTime()
 
     if SYMULACJA_SYGNALU:
-        df = pd.read_csv(r'.\dane_do_symulacji\data.csv')
+        df = pd.read_csv(r'\dane_do_symulacji\data.csv')
         for sample in df['signal']:
             if quit_program.is_set():
                 break
@@ -308,30 +308,30 @@ clock = pygame.time.Clock()
 
 
 scooby_list = []
-scooby_list.append(pygame.image.load(r".\graphics\scoobyjump.png")) #0
-scooby_list.append(pygame.image.load(r".\graphics\scoobyrun1.png")) #1
-scooby_list.append(pygame.image.load(r".\graphics\scoobyrun2.png")) #2
-scooby_list.append(pygame.image.load(r".\graphics\scoobyjump.png")) #3
+scooby_list.append(pygame.image.load(r"\graphics\scoobyjump.png")) #0
+scooby_list.append(pygame.image.load(r"\graphics\scoobyrun1.png")) #1
+scooby_list.append(pygame.image.load(r"\graphics\scoobyrun2.png")) #2
+scooby_list.append(pygame.image.load(r"\graphics\scoobyjump.png")) #3
 run_indx = 1
 
-road1 = pygame.image.load(r'.\graphics\ziemia.png')
-road2 = pygame.image.load(r'.\graphics\ziemia.png')
+road1 = pygame.image.load(r'\graphics\ziemia.png')
+road2 = pygame.image.load(r'\graphics\ziemia.png')
 
 ghost_list = []
-ghost_list.append(pygame.image.load(r".\graphics\ghost.png")) #0
-ghost_list.append(pygame.image.load(r".\graphics\ghost.png")) #1
+ghost_list.append(pygame.image.load(r"\graphics\ghost.png")) #0
+ghost_list.append(pygame.image.load(r"\graphics\ghost.png")) #1
 
 snack_list = []
-snack_list.append(pygame.image.load(r".\graphics\snack.png")) #0
-snack_list.append(pygame.image.load(r".\graphics\snack.png")) #1
+snack_list.append(pygame.image.load(r"\graphics\snack.png")) #0
+snack_list.append(pygame.image.load(r"\graphics\snack.png")) #1
 
 zombie_list = []
-zombie_list.append(pygame.image.load(r".\graphics\grave3.png")) #0
-zombie_list.append(pygame.image.load(r".\graphics\hand.png")) #1
-zombie_list.append(pygame.image.load(r".\graphics\grave.png")) #2
-zombie_list.append(pygame.image.load(r".\graphics\grave2.png")) #3
+zombie_list.append(pygame.image.load(r"\graphics\grave3.png")) #0
+zombie_list.append(pygame.image.load(r"\graphics\hand.png")) #1
+zombie_list.append(pygame.image.load(r"\graphics\grave.png")) #2
+zombie_list.append(pygame.image.load(r"\graphics\grave2.png")) #3
 
-background = pygame.image.load(r'.\graphics/tlo.jpg')
+background = pygame.image.load(r'\graphics\tlo.jpg')
 
 road1_pos_x = 0
 road2_pos_x = 600
