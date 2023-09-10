@@ -4,8 +4,8 @@ setuptools
 pygame
 webkit
 opengl
-six==1.16.0
-wheel==0.37.1
+six
+wheel
 wxPython==4.2.0
 pandas
 numpy
