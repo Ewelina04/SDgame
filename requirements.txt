@@ -1,8 +1,13 @@
 streamlit
+pip==22.3.1
+setuptools==65.4.0 
+pygame
+Pillow
 webkit
 opengl
-wxpython
+six==1.16.0
+wheel==0.37.1
+wxPython==4.2.0
 pandas
 numpy
-pygame
 psychopy
