@@ -1,7 +1,6 @@
 streamlit
 pip
 pygame
-setuptools
 webkit
 opengl
 six
