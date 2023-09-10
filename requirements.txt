@@ -3,4 +3,5 @@ pandas
 numpy
 pygame
 psychopy
+setuptools
 multiprocessing
