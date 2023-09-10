@@ -2,7 +2,6 @@ streamlit
 pip==22.3.1
 setuptools==65.4.0 
 pygame
-Pillow
 webkit
 opengl
 six==1.16.0
